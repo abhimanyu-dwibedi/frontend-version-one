@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: beige;
+    text-align: center;
+    color: white;
+}
+.cost{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+
+}
+.box{
+    justify-content: center;
+    text-align: center;
+    size: 100px;}
+.l{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 400px;
+}

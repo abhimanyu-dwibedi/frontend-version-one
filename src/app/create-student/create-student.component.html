@@ -1,0 +1,14 @@
+<p>create-student works!</p>
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label>First name</label>
+        <input type="text" class="form-control" [(ngModel)]="student.firstname" name="firstname">
+        <label>Last name</label>
+        <input type="text" class="form-control" [(ngModel)]="student.lastname" name="lastname">
+        <label>email id</label>
+        <input type="text" class="form-control" [(ngModel)]="student.emailId" name="emailId">
+        <label>placement package</label>
+        <input type="text" class="form-control" [(ngModel)]="student.salaryPackage" name="salaryPackage">
+        <button class="btn btn-success" type="submit">create</button>
+    </div>
+</form>
